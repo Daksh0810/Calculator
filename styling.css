@@ -1,3 +1,6 @@
+body{
+    background-color: beige;
+}
 h1{
     background-color: black;
     font-size: 38px;
@@ -8,7 +11,7 @@ h1{
     border-radius: 10px;
     background-color: black;
     border: 10px solid black;
-    height: 1200px;
+    height: 1150px;
     width: 820px;
     margin-left: 35%;
 }

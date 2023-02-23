@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css"
+</head>
+<script type="text/Javascript">
+    function backspace()  
+    {  
+    var exp = form1.answer.value;  
+    form1.answer.value = exp.substring(0, exp.length - 1); /* remove the element from total length ? 1 */  
+    } 
+    function addbutton(){
+        var button = document.createElement('button');
+        button.type = 'button';
+        button.innerHTML = 'Press me';
+        button.className = 'btn-styled';
+    }
+</script>
+<body>
+    <div class="formstyle">
+        <br><br>
+        <form name="form1">
+            <input type="text" id="calc" name="answer"><br><br>
+            <input id= "clear" type="button" value="Clear" onclick="form1.answer.value = ''">
+            <input id= "back" type="button" value="Backspace" onclick=backspace()>
+            <br><br>
+            <input class="properties" id="multiply" type="button" onclick="form1.answer.value += '*'">
+            <input class="properties" id="one" type="button" onclick="form1.answer.value += '1'">
+            <input class="properties" id="two" type="button" onclick="form1.answer.value += '2' ">
+            <input class="properties" id="three" type="button" onclick="form1.answer.value += '3'">
+            <input class="properties" id="sine" type="button" onclick="form1.answer.value = eval(Math.sin(form1.answer.value*Math.PI/180))">
+            <br><br>
+            <input class="properties" id="plus" type="button" onclick="form1.answer.value += '+'">
+            <input class="properties" id="four" type="button" onclick="form1.answer.value += '4'">
+            <input class="properties" id="five" type="button" onclick="form1.answer.value += '5'">
+            <input class="properties" id="six" type="button" onclick="form1.answer.value += '6'">
+            <input class="properties" id="cosine" type="button" onclick="form1.answer.value = eval(Math.cos(form1.answer.value*Math.PI/180))">
+            <br><br>
+            <input class="properties" id="minus" type="button" onclick="form1.answer.value += '-'">
+            <input class="properties" id="seven" type="button" onclick="form1.answer.value += '7'">
+            <input class="properties" id="eight" type="button" onclick="form1.answer.value += '8'">
+            <input class="properties" id="nine" type="button" onclick="form1.answer.value += '9'">
+            <input class="properties" id="tangent" type="button" onclick="form1.answer.value = eval(Math.tan(form1.answer.value*Math.PI/180))">
+            <br><br>
+            <input class="properties" id="divide" type="button" onclick="form1.answer.value += '/'">
+            <input class="properties" id="openbracket" type="button" onclick="form1.answer.value += '('">
+            <input class="properties" id="zero" type="button" onclick="form1.answer.value += '0'">
+            <input class="properties" id="closebracket" type="button" onclick="form1.answer.value += ')'">
+            <input class="properties" id="exponent" type="button" onclick="form1.answer.value = eval(Math.exp(form1.answer.value))">
+            <br><br>
+            <table>
+                <tr>
+                    <td><input class="properties" id="sqrt" type="button" onclick="form1.answer.value = eval(Math.sqrt(form1.answer.value))"></td>
+                    <td><input class="properties" id="plusminus" type="button" onclick="form1.answer.value=eval(form1.answer.value*-1)"></td>
+                    <td><input class="properties" id="square" type="button" onclick="form1.answer.value=eval(form1.answer.value**2)"></td>
+                    <td><input id="equal" type="button" value="=" onclick="form1.answer.value = eval(form1.answer.value)"></td>   
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

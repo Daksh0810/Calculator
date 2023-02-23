@@ -1,0 +1,149 @@
+h1{
+    background-color: black;
+    font-size: 38px;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+}
+.formstyle{
+    border-radius: 10px;
+    background-color: black;
+    border: 10px solid black;
+    height: 1200px;
+    width: 820px;
+    margin-left: 35%;
+}
+#calc{
+    background-color: white;
+    height: 100px;
+    width: 760px;
+    align-items: center;
+    margin-left: 20px;
+    font-family: Cascadia Code SemiBold;
+    font-size: 50px;
+}
+input{
+    height: 100px;
+    width: 80px;
+}
+.properties{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+#science{
+    height: 25px;
+    width: 250px;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+}
+#one{
+    background-image: url("1.png");
+}
+#two{
+    background-image: url("2.png");
+}
+#three{
+    background-image: url("3.png");
+}
+#four{
+    background-image: url("4.png");
+}
+#five{
+    background-image: url("5.png");
+}
+#six{
+    background-image: url("6.png");
+}
+#seven{
+    background-image: url("7.png");
+}
+#eight{
+    background-image: url("8.png");
+}
+#nine{
+    background-image: url("9.png");
+}
+#zero{
+    background-image: url("0.png");
+}
+#plus{
+    background-image: url("+.png");
+}
+#minus{
+    background-image: url("-.png");
+}
+#divide{
+    background-image: url("division.png");
+}
+#multiply{
+    background-image: url("x.png");
+}
+#sqrt{
+    background-image: url("root.png");
+}
+#openbracket{
+    background-image: url("(.png");
+}
+#closebracket{
+    background-image: url(").png");
+}
+#equal{
+    border-radius: 60px;
+    height: 100px;
+    width: 300px;
+    align-items: center;
+    margin-left: 20px;
+    font-family: Cascadia Code SemiBold;
+    background-color: orange;
+    color: black;
+    font-size: 30px;
+}
+#drop{
+    background-image: url("down.png");
+    border: 0px;
+}
+#clear{
+    border-radius: 10px;
+    height: 100px;
+    width: 370px;
+    align-items: center;
+    margin-left: 20px;
+    font-family: Cascadia Code SemiBold;
+    background-color: orange;
+    color: black;
+    font-size: 30px;
+}
+#back{
+    border-radius: 10px;
+    height: 100px;
+    width: 370px;
+    align-items: center;
+    margin-left: 20px;
+    font-family: Cascadia Code SemiBold;
+    background-color: orange;
+    color: black;
+    font-size: 30px;
+}
+#sine{
+    background-image: url("sine.png");
+}
+#cosine{
+    background-image: url("cosine.png");
+}
+#tangent{
+    background-image: url("tangent.png");
+}
+#plusminus{
+    background-image: url("plusminus.png");
+}
+#square{
+    background-image: url("square.png");
+}
+#exponent{
+    background-image: url("exp.png");
+}
